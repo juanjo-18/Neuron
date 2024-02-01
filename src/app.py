@@ -28,7 +28,7 @@ def mostrar_bloques(etiqueta,letra,cantidad):
 
 def main():
     st.set_page_config(layout="wide")
-    st.image('fotoNeurona.jpg', width=200)
+    st.image('imagenes/fotoNeurona.jpg', width=200)
     st.title("Simulador de neurona")
 
     numero_entradas = st.slider('Elige el número de entradas/pesos que tendrá la neurona', 1, 10, 1)
